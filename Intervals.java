@@ -45,7 +45,7 @@ public class Intervals {
             x1 = input.nextInt();
             
             // Debug
-            System.out.println(x1 + " is valid");
+            // System.out.println(x1 + " is valid");
         }
 
         // Valid if input is within 0000 - 2400
@@ -55,7 +55,7 @@ public class Intervals {
             x2 = input.nextInt();
             
             // Debug
-            System.out.println(x2 + " is valid");
+            // System.out.println(x2 + " is valid");
         }
         
         // Prompt User to InputSecond Time Interval
@@ -71,7 +71,7 @@ public class Intervals {
             y1 = input.nextInt();
             
             // Debug
-            System.out.println(y1 + " is valid");
+            // System.out.println(y1 + " is valid");
         }
 
         // // Valid if input is within 0000 - 2400
@@ -103,8 +103,8 @@ public class Intervals {
             y2 = temp;
             
             // Debugging
-            System.out.println(y1 + " this is second start");
-            System.out.println(y2 + " this is second end");
+            // System.out.println(y1 + " this is second start");
+            // System.out.println(y2 + " this is second end");
             
         }
         
@@ -117,10 +117,10 @@ public class Intervals {
             firstIntervalEnd = y2;
 
             // Debug
-            System.out.println(firstIntervalStart + " this is first start");
-            System.out.println(firstIntervalEnd + " this is first end");
-            System.out.println(secondIntervalStart + " this is second start");
-            System.out.println(secondIntervalEnd + " this is second end");
+        //     System.out.println(firstIntervalStart + " this is first start");
+        //     System.out.println(firstIntervalEnd + " this is first end");
+        //     System.out.println(secondIntervalStart + " this is second start");
+        //     System.out.println(secondIntervalEnd + " this is second end");
         } else {
             firstIntervalStart = x1;
             firstIntervalEnd = x2;
@@ -128,10 +128,10 @@ public class Intervals {
             secondIntervalEnd = y2;
 
             // Debug
-            System.out.println(firstIntervalStart);
-            System.out.println(firstIntervalEnd);
-            System.out.println(secondIntervalStart);
-            System.out.println(secondIntervalEnd);
+            // System.out.println(firstIntervalStart);
+            // System.out.println(firstIntervalEnd);
+            // System.out.println(secondIntervalStart);
+            // System.out.println(secondIntervalEnd);
         }
 
 
